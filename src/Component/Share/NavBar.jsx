@@ -14,7 +14,7 @@ export default function NavBar() {
     </>
   );
   return (
-    <div className=" bg-base-200 text-secondary w-full mx-auto px-5 ">
+    <div className=" bg-base-200 text-secondary w-full  mx-auto px-5">
       <div className="navbar ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -50,7 +50,7 @@ export default function NavBar() {
           <ul className="menu menu-horizontal px-1 text-lg">{link}</ul>
         </div>
         <div className="navbar-end">
-          <Link to="/about" className="btn bg-primary text-secondary">
+          <Link to="/login" className="btn bg-primary text-secondary">
             Login
           </Link>
         </div>

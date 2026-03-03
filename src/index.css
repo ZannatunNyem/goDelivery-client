@@ -8,8 +8,9 @@
   default: true;
   --color-primary: oklch(0.5512 0.2006 29.05);
   --color-secondary: oklch(0.9882 0.0045 286.26);
-  --color-base-100: oklch(0.5941 0.0045 286.26);
-  /* --color-base-100: oklch(0.9882 0.0045 286.26); */
+  --color-accent: oklch(0.5941 0.0045 286.26);
+  /* --color-base-100: oklch(0.5941 0.0045 286.26); */
+  --color-base-100: oklch(0.9882 0.0045 286.26);
   --color-base-200: oklch(0.1985 0.0099 38.65);
 }
 

@@ -1,12 +1,16 @@
 import React from "react";
 import Banner from "../Home/Banner";
-import Feature from "../Home/Feature";
+import Features from "../Home/Features";
+import OurService from "../Home/OurService";
+import Company from "../Home/Company";
 
 export default function Home() {
   return (
     <div>
       <Banner></Banner>
-      <Feature></Feature>
+      <Features></Features>
+      <OurService></OurService>
+      <Company></Company>
     </div>
   );
 }
